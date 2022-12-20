@@ -1,5 +1,5 @@
-/// <amd-module name="@scom/chainlink-contract/contracts/AggregatorProxy.json.ts" />
-declare module "@scom/chainlink-contract/contracts/AggregatorProxy.json.ts" {
+/// <amd-module name="@scom/oswap-chainlink-contract/contracts/AggregatorProxy.json.ts" />
+declare module "@scom/oswap-chainlink-contract/contracts/AggregatorProxy.json.ts" {
     const _default: {
         abi: ({
             inputs: {
@@ -44,8 +44,8 @@ declare module "@scom/chainlink-contract/contracts/AggregatorProxy.json.ts" {
     };
     export default _default;
 }
-/// <amd-module name="@scom/chainlink-contract/contracts/AggregatorProxy.ts" />
-declare module "@scom/chainlink-contract/contracts/AggregatorProxy.ts" {
+/// <amd-module name="@scom/oswap-chainlink-contract/contracts/AggregatorProxy.ts" />
+declare module "@scom/oswap-chainlink-contract/contracts/AggregatorProxy.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export class AggregatorProxy extends _Contract {
         static _abi: any;
@@ -177,8 +177,8 @@ declare module "@scom/chainlink-contract/contracts/AggregatorProxy.ts" {
         }
     }
 }
-/// <amd-module name="@scom/chainlink-contract/contracts/EACAggregatorProxy.json.ts" />
-declare module "@scom/chainlink-contract/contracts/EACAggregatorProxy.json.ts" {
+/// <amd-module name="@scom/oswap-chainlink-contract/contracts/EACAggregatorProxy.json.ts" />
+declare module "@scom/oswap-chainlink-contract/contracts/EACAggregatorProxy.json.ts" {
     const _default_1: {
         abi: ({
             inputs: {
@@ -223,8 +223,8 @@ declare module "@scom/chainlink-contract/contracts/EACAggregatorProxy.json.ts" {
     };
     export default _default_1;
 }
-/// <amd-module name="@scom/chainlink-contract/contracts/EACAggregatorProxy.ts" />
-declare module "@scom/chainlink-contract/contracts/EACAggregatorProxy.ts" {
+/// <amd-module name="@scom/oswap-chainlink-contract/contracts/EACAggregatorProxy.ts" />
+declare module "@scom/oswap-chainlink-contract/contracts/EACAggregatorProxy.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         aggregator: string;
@@ -367,8 +367,8 @@ declare module "@scom/chainlink-contract/contracts/EACAggregatorProxy.ts" {
         }
     }
 }
-/// <amd-module name="@scom/chainlink-contract/contracts/Owned.json.ts" />
-declare module "@scom/chainlink-contract/contracts/Owned.json.ts" {
+/// <amd-module name="@scom/oswap-chainlink-contract/contracts/Owned.json.ts" />
+declare module "@scom/oswap-chainlink-contract/contracts/Owned.json.ts" {
     const _default_2: {
         abi: ({
             inputs: any[];
@@ -416,8 +416,8 @@ declare module "@scom/chainlink-contract/contracts/Owned.json.ts" {
     };
     export default _default_2;
 }
-/// <amd-module name="@scom/chainlink-contract/contracts/Owned.ts" />
-declare module "@scom/chainlink-contract/contracts/Owned.ts" {
+/// <amd-module name="@scom/oswap-chainlink-contract/contracts/Owned.ts" />
+declare module "@scom/oswap-chainlink-contract/contracts/Owned.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, Event, TransactionOptions } from "@ijstech/eth-contract";
     export class Owned extends _Contract {
         static _abi: any;
@@ -453,13 +453,13 @@ declare module "@scom/chainlink-contract/contracts/Owned.ts" {
         }
     }
 }
-/// <amd-module name="@scom/chainlink-contract/contracts/index.ts" />
-declare module "@scom/chainlink-contract/contracts/index.ts" {
-    export { AggregatorProxy } from "@scom/chainlink-contract/contracts/AggregatorProxy.ts";
-    export { EACAggregatorProxy } from "@scom/chainlink-contract/contracts/EACAggregatorProxy.ts";
-    export { Owned } from "@scom/chainlink-contract/contracts/Owned.ts";
+/// <amd-module name="@scom/oswap-chainlink-contract/contracts/index.ts" />
+declare module "@scom/oswap-chainlink-contract/contracts/index.ts" {
+    export { AggregatorProxy } from "@scom/oswap-chainlink-contract/contracts/AggregatorProxy.ts";
+    export { EACAggregatorProxy } from "@scom/oswap-chainlink-contract/contracts/EACAggregatorProxy.ts";
+    export { Owned } from "@scom/oswap-chainlink-contract/contracts/Owned.ts";
 }
-/// <amd-module name="@scom/chainlink-contract" />
-declare module "@scom/chainlink-contract" {
-    export * as Contracts from "@scom/chainlink-contract/contracts/index.ts";
+/// <amd-module name="@scom/oswap-chainlink-contract" />
+declare module "@scom/oswap-chainlink-contract" {
+    export * as Contracts from "@scom/oswap-chainlink-contract/contracts/index.ts";
 }
