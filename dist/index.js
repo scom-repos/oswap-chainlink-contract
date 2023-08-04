@@ -248,8 +248,8 @@ define("@scom/oswap-chainlink-contract/contracts/AggregatorProxy.ts", ["require"
             });
         }
     }
-    exports.AggregatorProxy = AggregatorProxy;
     AggregatorProxy._abi = AggregatorProxy_json_1.default.abi;
+    exports.AggregatorProxy = AggregatorProxy;
 });
 define("@scom/oswap-chainlink-contract/contracts/EACAggregatorProxy.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -519,8 +519,8 @@ define("@scom/oswap-chainlink-contract/contracts/EACAggregatorProxy.ts", ["requi
             });
         }
     }
-    exports.EACAggregatorProxy = EACAggregatorProxy;
     EACAggregatorProxy._abi = EACAggregatorProxy_json_1.default.abi;
+    exports.EACAggregatorProxy = EACAggregatorProxy;
 });
 define("@scom/oswap-chainlink-contract/contracts/Owned.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -602,8 +602,8 @@ define("@scom/oswap-chainlink-contract/contracts/Owned.ts", ["require", "exports
             });
         }
     }
-    exports.Owned = Owned;
     Owned._abi = Owned_json_1.default.abi;
+    exports.Owned = Owned;
 });
 define("@scom/oswap-chainlink-contract/contracts/index.ts", ["require", "exports", "@scom/oswap-chainlink-contract/contracts/AggregatorProxy.ts", "@scom/oswap-chainlink-contract/contracts/EACAggregatorProxy.ts", "@scom/oswap-chainlink-contract/contracts/Owned.ts"], function (require, exports, AggregatorProxy_1, EACAggregatorProxy_1, Owned_1) {
     "use strict";
@@ -617,6 +617,5 @@ define("@scom/oswap-chainlink-contract", ["require", "exports", "@scom/oswap-cha
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Contracts = void 0;
-    ///<amd-module name='@scom/oswap-chainlink-contract'/> 
     exports.Contracts = Contracts;
 });
