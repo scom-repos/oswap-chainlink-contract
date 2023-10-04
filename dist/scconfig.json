@@ -1,7 +1,7 @@
 {
     "name": "@scom/oswap-chainlink-contract",
     "type": "contract",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependencies": [
         "@ijstech/eth-wallet",
         "@ijstech/eth-contract"
